@@ -5,7 +5,7 @@ write_csv(mtcars, "mtcars.csv")
 
 data(mtcars)
 
-## Generate the graph 4
+## Generate the graph 5
 mpg_hp <- mtcars %>%
   ggplot(aes(x = mpg, y = hp, color = factor(cyl))) +
   geom_point() +
